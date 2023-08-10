@@ -1,5 +1,5 @@
 % Load the dataset
-data = readtable('creditcard_topfeatures.csv');
+data = readtable('creditcard.csv');
 
 % Separate features and labels
 X = table2array(data(:, 1:end-1));
